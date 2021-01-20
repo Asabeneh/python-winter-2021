@@ -3,13 +3,15 @@
 
 a = 2
 b = 3
-total = a + b
-diff = b - a
-mult = a * b
-div = b / a 
-remainder = b % a
-exp = b ** a 
-floor_div = b // a
+
+total = a + b  # addition
+diff = b - a # substraction
+mult = a * b # multiplication
+div = b / a  # division
+remainder = b % a # modulo operator
+exp = b ** a  # exponential
+floor_div = b // a # floor division
+
 print(f'The sum of {a} and {b} is {total}.')
 print(f'The difference of {a} and {b} is {diff}')
 print(f'The product of {a} and {b} is {mult}')
@@ -32,4 +34,6 @@ gravity = 9.81
 
 # I am Asabeneh Yetayeh. I live in Helsinki, Finland. I am 38 years old. I am a programmer. 
 print(f'I am {first_name} {last_name}. I live in {city}, {country}. I am {age} years old. I am a {profession}.')
+
+
 
