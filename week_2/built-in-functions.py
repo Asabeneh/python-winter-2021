@@ -23,9 +23,10 @@ print(int('2')) # string to int
 print(int(9.81)) # float to int
 print(float('9.81')) # string to float
 print(str(2)) # int to string
-print(type(str(2)))
+print(type(str(2))) # changing int to string 
 print(str(2) == '2')
 
 print(dir('strings of what'))
 print('Python programming'.startswith('P'))
 print('Python programming'.endswith('g'))
+

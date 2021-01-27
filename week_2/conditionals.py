@@ -1,16 +1,16 @@
 # Conditionals 
 # 17:30 => I will be in Python lesson
 
-# a = int(input('Enter a number: '))
+a = int(input('Enter a number: '))
 
-# if a > 0:
-#     print(f'{a} is positive number')
-# elif a == 0:
-#     print(f'{a} is zero')
-# elif a < 0:
-#     print(f'{a} is a negative number')
-# else:
-#     print(f'{a} is not  a number')
+if a > 0:
+    print(f'{a} is positive number')
+elif a == 0:
+    print(f'{a} is zero')
+elif a < 0:
+    print(f'{a} is a negative number')
+else:
+    print(f'{a} is not  a number')
 
 country = 'FinLanD'
 print(country)
