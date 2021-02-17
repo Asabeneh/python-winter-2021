@@ -1,14 +1,15 @@
 # Time is an important physical quantity
 
-from datetime import datetime
-# print(dir(datetime))
-current_time = datetime.now()
-print(type(current_time))
-day = current_time.day
-month = current_time.month
-year = current_time.year
-hours = current_time.hour
-minutes = current_time.minute
+def display_day_time ():
+    from datetime import datetime
+    # print(dir(datetime))
+    current_time = datetime.now()
+    print(type(current_time))
+    day = current_time.day
+    month = current_time.month
+    year = current_time.year
+    hours = current_time.hour
+    minutes = current_time.minute
 
 # print(current_time)
 # print('Date: ', day, 'Month: ', month, 'year:', year, 'hours: ', hours, 'minuts: ', minutes )
