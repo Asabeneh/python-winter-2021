@@ -34,3 +34,4 @@ regex= r'[Aa]pple|[Bb]anana'
 txt = 'Apple and banana are fruits. An old cliche says an apple a day keey the  doctor way has been replaced by a banana a day keeps the doctor far far away. '
 
 print(re.findall(regex, txt))
+
